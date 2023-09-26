@@ -2,6 +2,7 @@
 
 .catTitle {
   color: turquoise;
+  text-transform: capitalize;
 }
 
 .items {

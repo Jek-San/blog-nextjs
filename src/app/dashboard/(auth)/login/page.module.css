@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 600;
+  color: #bbb;
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-size: 20px;
+  color: #bbb;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 20px 10px;
+  color: #bbb;
+  border: 3px solid beige;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: teal;
+  padding: 20px 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px
+}
+
+.button.google {
+  background-color: pink;
+  color: black
+}
+
+.or {
+  margin: 20px 0px;
+}
+
+.newAccount {
+  text-decoration: dotted;
+  border: none;
+  border-bottom: 1px solid gainsboro;
+}
